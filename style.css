@@ -359,7 +359,6 @@ nav li:hover{
         padding-right:0px;
     }
 
-
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
@@ -507,13 +506,15 @@ h1{
 
 .card{
     color: var(--clr-neutral-100);
-    background-image: url("src/AdobeStock_559145847.jpeg");
+    background-image: url("src/Programming.jpg");
     background-size: cover;
     padding: 5rem 0 0;
     max-width: 35ch;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     overflow: hidden;
     transition: transform 500ms ease;
+    
+
 }
 
 .card-content{
@@ -527,20 +528,26 @@ h1{
     transform: translateY(75%);
     transition: transform 500ms ease;
     transition-delay: 500ms;
+    
 }
 
 .faqcontent{
     display: grid;
     line-height: 1.6;
     font-family: sans-serif;
-    padding-top: 3em;
+    padding-right: 2em;
     padding-bottom: 3em;
+    padding-top: 4em;
+
     
     
 }
 
+
+
 .card-body{
     color:rgba(255 255 255 / 0.85);
+    
     
 }
 
@@ -548,6 +555,7 @@ h1{
    
     position: relative;
     width: max-content;
+    
 
 }
 
@@ -562,6 +570,7 @@ h1{
     transform:scaleX(0);
     transform-origin: left;
     transition: transform 500ms ease;
+    
 }
 
 .card:hover .card-title::after{
@@ -602,4 +611,117 @@ h1{
 .card:hover .card-content > *:not(.card-title){
     opacity: 1;
     transition-delay: 1000ms;
+}
+
+.cardlist{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* This is a single-line comment */
+
+
+
+.card2{
+    color: var(--clr-neutral-100);
+    background-image: url("src/PhotoGraphy.jpg");
+    background-size: cover;
+    padding: 5rem 0 0;
+    max-width: 35ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    
+
+}
+
+.card2:hover .card-title::after{
+    transform:scaleX(1);
+}
+
+
+
+.card2:hover{
+    transform: scale(1.05);
+}
+
+.card2:hover .card-content > *:not(.card-title){
+    opacity: 1;
+    transition-delay: 1000ms;
+}
+
+.card2:hover .card-content{
+    transform:translateY(0);
+    transition-delay: 500ms;
+}
+
+/* This is a single-line comment */
+
+.card1{
+    color: var(--clr-neutral-100);
+    background-image: url("src/web\ developer.jpg");
+    background-size: cover;
+    padding: 5rem 0 0;
+    max-width: 35ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    
+
+}
+
+.card1:hover .card-title::after{
+    transform:scaleX(1);
+}
+
+
+
+.card1:hover{
+    transform: scale(1.05);
+}
+
+.card1:hover .card-content > *:not(.card-title){
+    opacity: 1;
+    transition-delay: 1000ms;
+}
+
+.card1:hover .card-content{
+    transform:translateY(0);
+    transition-delay: 500ms;
+}
+
+/* This is a single-line comment */
+
+.card3{
+    color: var(--clr-neutral-100);
+    background-image: url("src/Hardwere.avif");
+    background-size: cover;
+    padding: 5rem 0 0;
+    max-width: 35ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    
+
+}
+
+.card3:hover .card-title::after{
+    transform:scaleX(1);
+}
+
+
+
+.card3:hover{
+    transform: scale(1.05);
+}
+
+.card3:hover .card-content > *:not(.card-title){
+    opacity: 1;
+    transition-delay: 1000ms;
+}
+
+.card3:hover .card-content{
+    transform:translateY(0);
+    transition-delay: 500ms;
 }
