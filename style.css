@@ -1493,3 +1493,86 @@ h1{
 
    
 }
+
+
+/*-------------------- for all -----------------*/
+
+
+@media screen and (max-width: 450px) {
+    .cardlist{
+        display:block;
+        justify-content: space-between;
+    }
+
+    .faqcontent{
+        padding-top:10px;
+        line-height: 2;
+        padding-right: 5px;
+    }
+
+    h1{
+        padding-bottom: 3px;
+        font-size: 40px;
+    }
+
+    .content{
+        font-size: 15px;
+    }
+    .card{
+        color: var(--clr-neutral-100);
+        background-image: url("src/Programming.jpg");
+        background-size: cover;
+        padding: 0.5px 0 0;
+        max-width: 35ch;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        
+    
+    }
+
+    .card1{
+        color: var(--clr-neutral-100);
+        background-image: url("src/web\ developer.jpg");
+        background-size: cover;
+        padding: 0.5px 0 0;
+        max-width: 35ch;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        
+    
+    }
+
+    .card2{
+        color: var(--clr-neutral-100);
+        background-image: url("src/PhotoGraphy.jpg");
+        background-size: cover;
+        padding: 0.5px 0 0;
+        max-width: 35ch;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        
+    
+    }
+    .card3{
+        color: var(--clr-neutral-100);
+        background-image: url("src/Hardwere.avif");
+        background-size: cover;
+        padding: 0.5px 0 0;
+        max-width: 35ch;
+        border-radius: 1rem;
+        overflow: hidden;
+        transition: transform 500ms ease;
+        
+    
+    }
+
+    .bottom{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+   
+}
