@@ -737,6 +737,7 @@ h1{
 .cardlist{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
 
 
@@ -1578,12 +1579,14 @@ h1{
 }
 
 footer{
-   background: #000E21;
+   background: #111;
    height: auto;
    width: 100vw;
    font-family: sans-serif;
    padding-top: 40px;
    color: #fff;
+   padding-right: 5px;
+   padding-left: 5px;
 }
 
 .footer-content{
@@ -1596,7 +1599,7 @@ footer{
 }
 
 .footer-content h3{
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
@@ -1636,7 +1639,7 @@ footer{
 }
 
 .footer-bottom{
-    background: #000B19;
+    background: #000;
     width: 100vw;
     padding: 20px 0;
     text-align: center;
