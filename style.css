@@ -1581,12 +1581,11 @@ h1{
 footer{
    background: #111;
    height: auto;
-   width: 100vw;
+   
    font-family: sans-serif;
    padding-top: 40px;
    color: #fff;
-   padding-right: 5px;
-   padding-left: 5px;
+   
 }
 
 .footer-content{
@@ -1596,6 +1595,8 @@ footer{
     flex-direction:column;
     flex-direction: column;
     text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .footer-content h3{
@@ -1640,7 +1641,7 @@ footer{
 
 .footer-bottom{
     background: #000;
-    width: 100vw;
+    
     padding: 20px 0;
     text-align: center;
 }
